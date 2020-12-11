@@ -1,5 +1,3 @@
-package QueueApproach;
-
 /**
  * Created by glenc on Dec 2020
  **/

@@ -1,5 +1,3 @@
-package ArraySorting;
-
 /**
  * Created by glenc on Dec 2020
  **/
