@@ -1,0 +1,1 @@
+In this tutorial we learn how to use queues from the basic approach

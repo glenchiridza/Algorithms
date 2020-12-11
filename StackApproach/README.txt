@@ -1,0 +1,1 @@
+In this stack of the course we learn simple implementations of stacks
