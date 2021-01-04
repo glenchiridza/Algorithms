@@ -50,6 +50,27 @@ public class Link {
             System.out.println(" ");
 
         }
+        public void insertSorted(int keyInt, double keyDouble){
+
+            Link newLink = new Link(keyInt, keyDouble);
+            Link previous = null;
+            Link current = first;
+
+            while(current != null && keyInt > current.valueInt){
+                previous = current;  //keep hold of the current now in previous
+                current = current.next; //move to next value
+
+
+            }
+            //at the beginning, no value yet
+            if (previous == null)
+                first = newLink;
+            else
+                previous.next = newLink; //old previous is now referencing newLink, more of like first = newLink, but just that we are at some point in the list therefore previous.next = newLink
+            newLink.next = current; //note current is holding first reference
+
+
+        }
 
 
 
